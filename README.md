@@ -11,9 +11,9 @@ the two hands of a traditional clock.
 
 |  behavior | input  | output  |
 |---|---|---|
-| If hour and minute hands are at same destination, return zero | 12:00 | 0 degrees |
 | If minute hand is at 12, return the angle difference based on only the hour | 1:00 | 30 or 330 degrees |
 | If minute hand is not at 12, return the shortest angle difference btwn both hands | 6:30 | 15 degrees |
+| If hour and minute hands are at same destination, return zero | 12:00 | 0 degrees |
 
 
 

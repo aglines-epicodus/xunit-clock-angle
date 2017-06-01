@@ -18,5 +18,15 @@ namespace ClockAngle
       // output: an int, 360 divided by 30
       return _minute * 6;
     }
+
+    public int HourPosition()
+    {
+      return _hour * 30 ;
+    }
+
+    public int HourOffsetPosition()
+    {
+      return _minute / 2;
+    }
   }
 }
